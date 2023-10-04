@@ -1,0 +1,79 @@
+// Define the color map
+
+  $Royalblue: #0A2463;
+  $RedSalsa: #FB3640;
+  $Granitegray: #605F5E;
+  $CGblue: #247BA0;
+  $Keylime: #EAF27C;
+  $Darkpurple: #370031;
+  $Brickred: #CE4760;
+  $Cadmiumorange: #F28F3B;
+  $SteelTeal: #588B8B;
+  $Bluetiful: #446DF6;
+  $Peach: #FECDAA;
+  $OliveDrab: #392A16;
+
+  .col-1{
+    background-color: $Royalblue;
+    height: 50px;
+  }
+  .col-2{
+    background-color: $RedSalsa;
+    height: 50px;
+  }
+
+  .col-3{
+    background-color: $Granitegray;
+    height: 50px;
+  }
+
+  .col-4{
+    background-color: $CGblue;
+    height: 50px;
+  }
+
+  .col-5{
+    background-color: $Keylime;
+    height: 50px;
+  }
+
+  .col-6{
+    background-color: $Darkpurple;
+    height: 50px;
+  }
+
+  .col-7{
+    background-color: $Brickred;
+    height: 50px;
+  }
+
+  .col-8{
+    background-color: $Cadmiumorange;
+    height: 50px;
+  }
+
+  .col-9{
+    background-color: $SteelTeal;
+    height: 50px;
+  }
+
+  .col-10{
+    background-color: $Bluetiful;
+    height: 50px;
+  }
+
+  .col-11{
+    background-color: $Peach;
+    height: 50px;
+  }
+
+  .col-12{
+    background-color: $OliveDrab;
+    height: 50px;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}

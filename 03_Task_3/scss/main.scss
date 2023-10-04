@@ -1,0 +1,28 @@
+@mixin dialogBox($backgroundColor, $width) {
+    width: $width;
+    padding: 10px;
+    background: $backgroundColor;
+    border: 1px solid black;
+    margin: 40px auto;
+  
+    &:after {
+      content: "";
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: $backgroundColor;
+      position: absolute;
+      left: 50%;
+      top: 4%;
+      transform: translateX(-50%) rotate(45deg);
+      border: 1px solid black;
+    }
+  }
+  
+  .dialog {
+    @include dialogBox(lightgreen, 300px);
+  }
+  .dialog-title{
+    font-size: 40px;
+    font-family: sans-serif;
+  }

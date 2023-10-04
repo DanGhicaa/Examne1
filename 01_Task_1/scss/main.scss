@@ -1,0 +1,35 @@
+$Gold: #FFDA69;
+
+$font-path: 'Indie_Flower/';
+
+@font-face {
+    font-family: 'IndieFlower';
+    src: url('/Indie_Flower/IndieFlower-Regular.ttf') format('truetype');
+  }
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: $Gold;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: 'India Flower', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-text {
+    display: flex;
+    flex-direction: column;
+    
+    .MainText {
+        font-family: 'IndieFlower', sans-serif;
+        font-size: 3rem;
+        font-weight: 400;
+        width: 100px;
+    }
+}
